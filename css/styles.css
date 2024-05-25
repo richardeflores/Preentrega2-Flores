@@ -95,9 +95,11 @@ ul.navbar-nav.ms-auto.md-2.mb-lg-0 {
 .galeria3 {
     padding-bottom: 50px;;
 }
-/*Footer*/
+/*Contacto*/
 
-
+img.imgform {
+    max-width: 100%;
+}
 
 @media(max-width:767px){
     .carousel-item {
