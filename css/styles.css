@@ -15,6 +15,10 @@ body {
     padding-left: 1em;
 }
 
+ul.navbar-nav.ms-auto.md-2.mb-lg-0 {
+    padding-right: 6em;
+}
+
 /*Carrusel*/
 .carousel-item {
     min-height: 400px;
@@ -84,5 +88,37 @@ body {
 }
 
 /*Galeria*/
-
+.galeria1, .galeria2, .galeria3 {
+    padding-top:1em;
+    max-width: 100%;
+}
+.galeria3 {
+    padding-bottom: 50px;;
+}
 /*Footer*/
+
+
+
+@media(max-width:767px){
+    .carousel-item {
+        min-height: 400px;
+    }
+    .carousel-item img {
+        height: 400px;
+        background-size:cover ;
+    }
+    .carousel-caption {
+        bottom: 20px;
+    }
+    .carousel-caption h5{
+        font-size: 50px;
+        margin-top: 0;
+    }
+    .carousel-caption p {
+        width: 100%;
+        font-size: 20px;
+    }
+    .especialidades {
+        padding: 30px 0;
+    }
+}
