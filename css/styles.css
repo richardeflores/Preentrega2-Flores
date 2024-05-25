@@ -49,4 +49,40 @@ body {
     z-index: 1;
 }
 
-/*Agregando fuente*/
+/*Especialidades*/
+
+.especialidades {
+    padding: 80px 0;
+}
+
+.bg-car1{
+    background-image: linear-gradient(
+        rgba (0,0,0,0.5),
+        rgba (0,0,0,0.5)), url(assets/bg1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-car2 {
+    background-image: linear-gradient(
+        rgba (0,0,0,0.5),
+        rgba (0,0,0,0.5)), url(assets/bg2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.bg-car3 {
+    background-image: linear-gradient(
+        rgba (0,0,0,0.5),
+        rgba (0,0,0,0.5)), url(assets/bg3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Galeria*/
+
+/*Footer*/
