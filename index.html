@@ -7,7 +7,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
+<header>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
       <a class="navbar-brand" href="./index.html"><span class="text-danger">Hematologia para todos</span></a>
@@ -24,125 +24,128 @@
       </ul>
     </div>
   </nav>
-  <div id="carruselHome" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carruselHome" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
-      </button>
-      <button type="button" data-bs-target="#carouselHome" data-bs-slide-to="1" aria-current="true" aria-label="Slide 2">
-      </button>
-      <button type="button" data-bs-target="#carouselHome" data-bs-slide-to="2" aria-current="true" aria-label="Slide 3"> 
-      </button>   
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="assets/slide-1.jpg" class="d-block w-100" alt="Persona sosteniendo tubos de hematologia">
-        <div class="carousel-caption">
-          <h5>Hematologia automatizada</h5>
-          <p>Las novedades de los analizadores de ultima generacion</p>
-          <p><a href="#" class="btn btn-danger  mt-3">Leer mas</a></p>
+</header>
+<body>
+  <main>
+      <div id="carruselHome" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carruselHome" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
+          </button>
+          <button type="button" data-bs-target="#carouselHome" data-bs-slide-to="1" aria-current="true" aria-label="Slide 2">
+          </button>
+          <button type="button" data-bs-target="#carouselHome" data-bs-slide-to="2" aria-current="true" aria-label="Slide 3"> 
+          </button>   
         </div>
-      </div>
-      <div class="carousel-item">
-        <img src="assets/slide-2.jpg" class="d-block w-100" alt="Persona sosteniendo tubos de hematologia">
-        <div class="carousel-caption">
-          <h5>Hematologia Digital</h5>
-          <p>Alas con imagenes en HD</p>
-          <p><a href="#" class="btn btn-danger mt-3">Leer mas</a></p>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/slide-1.jpg" class="d-block w-100" alt="Persona sosteniendo tubos de hematologia">
+            <div class="carousel-caption">
+              <h5>Hematologia automatizada</h5>
+              <p>Las novedades de los analizadores de ultima generacion</p>
+              <p><a href="#" class="btn btn-danger  mt-3">Leer mas</a></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/slide-2.jpg" class="d-block w-100" alt="Persona sosteniendo tubos de hematologia">
+            <div class="carousel-caption">
+              <h5>Hematologia Digital</h5>
+              <p>Alas con imagenes en HD</p>
+              <p><a href="#" class="btn btn-danger mt-3">Leer mas</a></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/slide-3.jpg" class="d-block w-100" alt="Persona sosteniendo tubos de hematologia">
+            <div class="carousel-caption">
+              <h5>Coagulacion sanguinea</h5>
+              <p>Nueva metodologia para le evaluacion de coagulacion</p>
+              <p><a href="#" class="btn btn-danger mt-3">Leer mas</a></p>
+            </div>
+          </div>
         </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carruselHome" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="
+        #carruselHome" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
       </div>
-      <div class="carousel-item">
-        <img src="assets/slide-3.jpg" class="d-block w-100" alt="Persona sosteniendo tubos de hematologia">
-        <div class="carousel-caption">
-          <h5>Coagulacion sanguinea</h5>
-          <p>Nueva metodologia para le evaluacion de coagulacion</p>
-          <p><a href="#" class="btn btn-danger mt-3">Leer mas</a></p>
-        </div>
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carruselHome" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Anterior</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="
-    #carruselHome" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Siguiente</span>
-    </button>
-  </div>
+  </main>
   <section class="especialidades">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 col-md-12 col-lg-4 mb-3">
-          <div class="card text-center bg-car1 pb-2">
-            <div class="card-body">
-              <h3 class="card-title text-white">Frotis Sanguineo</h3>
-              <p class="text-white">Mejore su tecnica para realizar y colorear extendidos sanguineos. Prueba fundamental para detectar enfermedades como anemias, leucemias y patologías asociadas.
-                Un buen Frotis sanguíneo empieza desde el extendido. </p>
-              <button class="btn bg-danger text-white">Leer mas</button>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-12 col-lg-4 mb-3">
+            <div class="card text-center bg-car1 pb-2">
+              <div class="card-body">
+                <h3 class="card-title text-white">Frotis Sanguineo</h3>
+                <p class="text-white">Mejore su tecnica para realizar y colorear extendidos sanguineos. Prueba fundamental para detectar enfermedades como anemias, leucemias y patologías asociadas.
+                  Un buen Frotis sanguíneo empieza desde el extendido. </p>
+                <button class="btn bg-danger text-white">Leer mas</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-12 col-lg-4 mb-3">
+            <div class="card text-center bg-car2 pb-2">
+              <div class="card-body">
+                <h3 class="card-title text-white">Coagulacion</h3>
+                <p class="text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus assumenda recusandae sequi inventore cum nostrum quam sapiente, quisquam tenetur, numquam modi reiciendis quos dicta voluptas illo laudantium! Quasi, voluptas fugit.</p>
+                <button class="btn bg-danger text-white">Leer mas</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-12 col-lg-4 mb-3">
+            <div class="card text-center bg-car3 pb-2">
+              <div class="card-body">
+                <h3 class="card-title text-white">Banco de sangre</h3>
+                <p class="text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus assumenda recusandae sequi inventore cum nostrum quam sapiente, quisquam tenetur, numquam modi reiciendis quos dicta voluptas illo laudantium! Quasi, voluptas fugit.</p>
+                <button class="btn bg-danger text-white">Leer mas</button>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-12 col-lg-4 mb-3">
-          <div class="card text-center bg-car2 pb-2">
-            <div class="card-body">
-              <h3 class="card-title text-white">Coagulacion</h3>
-              <p class="text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus assumenda recusandae sequi inventore cum nostrum quam sapiente, quisquam tenetur, numquam modi reiciendis quos dicta voluptas illo laudantium! Quasi, voluptas fugit.</p>
-              <button class="btn bg-danger text-white">Leer mas</button>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-md-12 col-lg-4 mb-3">
-          <div class="card text-center bg-car3 pb-2">
-            <div class="card-body">
-              <h3 class="card-title text-white">Banco de sangre</h3>
-              <p class="text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus assumenda recusandae sequi inventore cum nostrum quam sapiente, quisquam tenetur, numquam modi reiciendis quos dicta voluptas illo laudantium! Quasi, voluptas fugit.</p>
-              <button class="btn bg-danger text-white">Leer mas</button>
-            </div>
-          </div>
-        </div>
-      </div>
 
-    </div>
+      </div>
   </section>
   <section class="galeria">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="section-header text-center pb-5">
-            <h2 class="text-white">Galeria</h2>
-            <p class="text-center text-white">Banco de imagenes para llevar sus conocimientos a otro nivel.</p>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-header text-center pb-5">
+              <h2 class="text-white">Galeria</h2>
+              <p class="text-center text-white">Banco de imagenes para llevar sus conocimientos a otro nivel.</p>
+            </div>
+        <div class="row galeria">
+          <div class="col-12 col-md-12 col-lg-5">
+            <div class="row">
+              <a href="assets/neutrofilo.jpg"><img class="galeria1" src="assets/neutrofilo.jpg" alt=""></a>
+            </div>
+            <div class="row">
+              <a href="assets/sangre2.jpg"><img class="galeria2" src="assets/sangre2.jpg" alt=""></a>
+            </div>
           </div>
-      <div class="row galeria">
-        <div class="col-12 col-md-12 col-lg-5">
-          <div class="row">
-            <a href="assets/neutrofilo.jpg"><img class="galeria1" src="assets/neutrofilo.jpg" alt=""></a>
-          </div>
-          <div class="row">
-            <a href="assets/sangre2.jpg"><img class="galeria2" src="assets/sangre2.jpg" alt=""></a>
+          <div class="col-12 col-md-12 col-lg-7">
+            <a href="assets/eritro.png"><img class="galeria3" src="assets/eritro.png" alt=""></a>
           </div>
         </div>
-        <div class="col-12 col-md-12 col-lg-7">
-          <a href="assets/eritro.png"><img class="galeria3" src="assets/eritro.png" alt=""></a>
+          </div>
         </div>
       </div>
-        </div>
-      </div>
-    </div>
   </section>
   <footer class="bg-black p-2 text-center">
-    <div class="container">
-      <p class="text-white text-center">
-       Para aprender mas, siguenos en nuestras redes
-    <br>
-        <a href="https://www.instagram.com/lcdorichardflores/"><img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Instagram_colored_svg_1-512.png" alt="instagram" width="30px"></a>
-        <a href="mailto:richard@rfloresdev.com"><img src="https://cdn4.iconfinder.com/data/icons/web-ui-color/128/Mail-512.png" alt="mail" width="30px"></a>
-        <a href="https://github.com/richardeflores"><img src="https://cdn4.iconfinder.com/data/icons/bettericons/354/github-circle-512.png" alt="github" width="30px"></a>
-        <a href="https://www.linkedin.com/in/lcdorichardflores/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/LinkedIn_icon_circle.svg/2048px-LinkedIn_icon_circle.svg.png" width="30px" alt="linkedin"></a>
-    </p>
-      <p class="text-white">Richard Flores - Todos los derechos reservados</p>
-    </div>
+      <div class="container">
+        <p class="text-white text-center">
+        Para aprender mas, siguenos en nuestras redes
+      <br>
+          <a href="https://www.instagram.com/lcdorichardflores/"><img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Instagram_colored_svg_1-512.png" alt="instagram" width="30px"></a>
+          <a href="mailto:richard@rfloresdev.com"><img src="https://cdn4.iconfinder.com/data/icons/web-ui-color/128/Mail-512.png" alt="mail" width="30px"></a>
+          <a href="https://github.com/richardeflores"><img src="https://cdn4.iconfinder.com/data/icons/bettericons/354/github-circle-512.png" alt="github" width="30px"></a>
+          <a href="https://www.linkedin.com/in/lcdorichardflores/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/LinkedIn_icon_circle.svg/2048px-LinkedIn_icon_circle.svg.png" width="30px" alt="linkedin"></a>
+      </p>
+        <p class="text-white">Richard Flores - Todos los derechos reservados</p>
+      </div>
   </footer>
- 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

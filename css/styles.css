@@ -62,7 +62,7 @@ ul.navbar-nav.ms-auto.md-2.mb-lg-0 {
 div.bg-car1{
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.4),
-        rgba(0, 0, 0, 0.4)), url(../assets/microscopio.jpg);
+        rgba(0, 0, 0, 0.4)), url(./assets/microscopio.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -71,7 +71,7 @@ div.bg-car1{
 .bg-car2 {
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.4),
-        rgba(0, 0, 0, 0.4)), url(../assets/coagulo.jpg);
+        rgba(0, 0, 0, 0.4)), url(./assets/coagulo.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -80,7 +80,7 @@ div.bg-car1{
 .bg-car3 {
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.4),
-        rgba(0, 0, 0, 0.4)), url(../assets/banco.jpg);
+        rgba(0, 0, 0, 0.4)), url(./assets/banco.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
