@@ -1,0 +1,12 @@
+//Variables
+
+$color-fondo:#222;
+$fuente-principal:"Bebas Neue", sans-serif;
+
+* {
+   font-family: $fuente-principal;
+    }
+
+body {
+    background-color: $color-fondo;
+}
