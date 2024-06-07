@@ -11,16 +11,9 @@ body {
     background-color: $color-fondo;
 }
 
-/*Agregando fuente*/
+
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-* {
-    font-family: "Bebas Neue", sans-serif;
-}
-
-body {
-    background-color: #222222;
-}
 /*Menu*/
 .nav-link {
     font-weight: 400;
@@ -70,6 +63,11 @@ ul.navbar-nav.ms-auto.md-2.mb-lg-0 {
 
 .especialidades {
     padding: 80px 0;
+}
+
+.card-body {
+    height: 250px;
+    transition: 2s;
 }
 
 div.bg-car1{
@@ -138,4 +136,9 @@ img.imgform {
     .especialidades {
         padding: 30px 0;
     }
+}
+
+.card-body:hover {
+    transform: scale(1.1);
+    transition: 2s;
 }
