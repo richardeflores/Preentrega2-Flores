@@ -1,128 +1,130 @@
-/*Agregando fuente*/
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 * {
-    font-family: "Bebas Neue", sans-serif;
+  font-family: "Bebas Neue", sans-serif;
 }
 
 body {
-    background-color: #222222;
+  background-color: #222;
 }
+
+/*Agregando fuente*/
+* {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+body {
+  background-color: #222222;
+}
+
 /*Menu*/
 .nav-link {
-    font-weight: 400;
-    font-size: 20px;
-    padding-left: 1em;
+  font-weight: 400;
+  font-size: 20px;
+  padding-left: 1em;
 }
 
 ul.navbar-nav.ms-auto.md-2.mb-lg-0 {
-    padding-right: 6em;
+  padding-right: 6em;
 }
 
 /*Carrusel*/
 .carousel-item {
-    min-height: 400px;
+  min-height: 400px;
 }
 
 .carousel-caption {
-    bottom: 120px;
-    z-index: 2;
+  bottom: 120px;
+  z-index: 2;
 }
 
 .carousel-caption h5 {
-    font-size: 70px;
-    font-weight: 600px;
-    text-transform: uppercase;
-    margin-top: 25px;
+  font-size: 70px;
+  font-weight: 600px;
+  text-transform: uppercase;
+  margin-top: 25px;
 }
 
 .carousel-caption p {
-    width: 60%;
-    margin: 10px auto;
-    font-size: 18px;
+  width: 60%;
+  margin: 10px auto;
+  font-size: 18px;
 }
 
 .carousel-inner::before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background: rgb(0, 0, 0, 0.4);
-    z-index: 1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1;
 }
 
 /*Especialidades*/
-
 .especialidades {
-    padding: 80px 0;
+  padding: 80px 0;
 }
 
-div.bg-car1{
-    background-image: linear-gradient(
-        rgba(0, 0, 0, 0.4),
-        rgba(0, 0, 0, 0.4)), url(../assets/microscopio.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+div.bg-car1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/microscopio.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .bg-car2 {
-    background-image: linear-gradient(
-        rgba(0, 0, 0, 0.4),
-        rgba(0, 0, 0, 0.4)), url(../assets/coagulo.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/coagulo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .bg-car3 {
-    background-image: linear-gradient(
-        rgba(0, 0, 0, 0.4),
-        rgba(0, 0, 0, 0.4)), url(../assets/banco.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/banco.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /*Galeria*/
 .galeria1, .galeria2, .galeria3 {
-    padding-top:1em;
-    max-width: 100%;
-    padding-bottom: 50px;
-}
-.galeria3 {
-    padding-bottom: 50px;;
+  padding-top: 1em;
+  max-width: 100%;
+  padding-bottom: 50px;
 }
 
+.galeria3 {
+  padding-bottom: 50px;
+}
 
 /*Contacto*/
-
 img.imgform {
-    max-width: 100%;
+  max-width: 100%;
 }
 
-@media(max-width:767px){
-    .carousel-item {
-        min-height: 400px;
-    }
-    .carousel-item img {
-        height: 400px;
-        background-size:cover ;
-    }
-    .carousel-caption {
-        bottom: 20px;
-    }
-    .carousel-caption h5{
-        font-size: 50px;
-        margin-top: 0;
-    }
-    .carousel-caption p {
-        width: 100%;
-        font-size: 20px;
-    }
-    .especialidades {
-        padding: 30px 0;
-    }
+@media (max-width: 767px) {
+  .carousel-item {
+    min-height: 400px;
+  }
+  .carousel-item img {
+    height: 400px;
+    background-size: cover;
+  }
+  .carousel-caption {
+    bottom: 20px;
+  }
+  .carousel-caption h5 {
+    font-size: 50px;
+    margin-top: 0;
+  }
+  .carousel-caption p {
+    width: 100%;
+    font-size: 20px;
+  }
+  .especialidades {
+    padding: 30px 0;
+  }
 }
+
+/*# sourceMappingURL=styles.css.map */
