@@ -122,8 +122,14 @@ img.imgform {
     padding: 30px 0;
   }
 }
+/*Animaciones*/
 .card-body:hover {
   transform: scale(1.1);
+  transition: 2s;
+}
+
+.galeria1:hover, .galeria2:hover, .galeria3:hover {
+  transform: rotate(360deg);
   transition: 2s;
 }
 
